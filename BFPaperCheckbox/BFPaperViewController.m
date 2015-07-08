@@ -51,6 +51,7 @@
     self.paperCheckbox = [[BFPaperCheckbox alloc] initWithFrame:CGRectMake(20, 150, bfPaperCheckboxDefaultRadius * 2, bfPaperCheckboxDefaultRadius * 2)];
     self.paperCheckbox.tag = 1001;
     self.paperCheckbox.delegate = self;
+    self.paperCheckbox.tintColor=[UIColor clearColor];
     [self.view addSubview:self.paperCheckbox];
     
     // Set up first checkbox label:
